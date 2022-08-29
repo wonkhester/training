@@ -46,4 +46,35 @@ let name = prompt("whats your name ");
 
 console.log("hello") 
 console.log(name)
+
+//9
+var ps = require("prompt-sync");
+var prompt = ps();
+
+let name = prompt("Hello, how are you? ");
+if (name == 'Fine, thanks') {
+    let ab = prompt("That's interesting, tell me more ");
+    if(ab == 'I learn coding'){
+        console.log('Thank you for sharing')
+    }
+}
+
+//10
+var ps = require("prompt-sync");
+var prompt = ps();
+
+console.log('I will tell a story, but I need some information.')
+let name = prompt("Give a name for main character: ");
+
+console.log('> ', name);
+
+let profession = prompt('Give the character a profession: ')
+
+console.log('> ', profession)
+
+console.log('Here is the story:')
+console.log('Once upon a time there was a', profession, 'called', name)
+console.log('On her way to work,', name, 'often pondered what being',profession, 'meant to them.')
+console.log('When you work as a', profession, 'you meet interesting people.')
+console.log(name, 'enjoys their work as', profession + ', The end.')
 */
