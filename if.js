@@ -134,3 +134,6 @@ if ((containsConsonantChars(input) == false) && (containsVowelsChars(input) == f
 }
 */
 // öv:8
+var ps = require("prompt-sync")
+var prompt = ps();
+
